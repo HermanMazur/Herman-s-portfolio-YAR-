@@ -18,7 +18,7 @@ body {
 .container {
     width: 100%;
     background-color: #1E1E1E;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     color: white;
 }
 
@@ -300,7 +300,8 @@ nav ul li a:hover {
     border: none;
 }
 
-.btns button:hover {
+.btns button:hover,
+.btns button:focus {
     transform: scale(1.02);
 }
 
